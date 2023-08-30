@@ -11,6 +11,7 @@ int i;
 		head->next = tail;
 		head->x = 16 + 2 * i;
 		head->y = 13;
+
 		tail = head; // 头成为尾
 	}
 	// 输出蛇身
