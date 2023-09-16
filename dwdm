@@ -9,6 +9,7 @@ int i;
 	{
 		head = (snake*)malloc(sizeof(snake));
 		head->next = tail;
+
 		head->x = 16 + 2 * i;
 		head->y = 13;
 
